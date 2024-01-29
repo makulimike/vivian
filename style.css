@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: red;
+}
+
+#container1{
+    height: auto;
+    background-color: red;
+}
+
+#container1 .header{
+    text-align: center;
+}
+
+
+.gallery{
+     display: flex;
+     justify-content: center;
+     
+}
+
+.mikegallery{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.mikegallery img{
+    width: 100px;
+    margin: 10px;
+}
+
+.leter{
+    
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 375px;
+    background-color: black;
+    color: white;
+   
+}
+
+.leter .info{
+    
+}
+
+
+.leter video{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 375px;
+    border: 3px solid white;
+}
+.viviangalllery{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.viviangalllery img{
+    width: 100px;
+    margin: 10px;
+}
+ .footer{
+        background-color: black;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .footer button{
+        border: none;
+        background-color: red;
+        padding: 7px;
+        color: white;
+    }
+#container2{
+    border: 10px solid black;
+    border-radius: 30px;
+}
+    
+
+.content{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+}
+
+.content .video{
+    height: auto;
+    width: 375px;
+    margin: 10px;
+}
+.content .video video{
+    border: 3px solid white;
+}
+
+
+
+.footer{
+    background-color: black;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer button{
+    border: none;
+    padding: 7px;
+    background-color: red;
+    color: white;
+}
+
+
+@media only screen and (max-width: 686px){
+    #container1{
+        width: 375;
+        height: auto;
+        background-color: red;
+        padding-bottom: 20px;
+    }
+    
+    #container1 .header{
+        text-align: center;
+    }
+    
+    
+    .gallery{
+         flex-wrap: wrap;
+         justify-content: center;
+         
+    }
+    
+    .mikegallery{
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: auto;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .mikegallery img{
+        width: 100px;
+        margin: 10px;
+    }
+    
+    .leter{
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 375px;
+        background-color: black;
+        color: white;
+   
+       
+    }
+
+    .leter .info{
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    
+    
+
+.leter video{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 375px;
+    border: 3px solid red;
+}
+    .viviangalllery{
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: auto;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    .viviangalllery img{
+        width: 100px;
+        margin: 10px;
+    }
+
+    .footer{
+        margin-bottom: 20px;
+        background-color: black;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .footer button{
+        border: none;
+        background-color: red;
+        padding: 7px;
+        color: white;
+    }
+}
